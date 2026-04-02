@@ -1,5 +1,3 @@
-# network-portfolio
-Network Engineering Portfolio
 # 🌐 Network Engineering Portfolio
 
 Hi, I'm Vishal 👋
@@ -53,12 +51,18 @@ Aspiring Network Engineer with a strong interest in networking and infrastructur
 ---
 
 ## 🚀 How to Use
-Download .pka files
-Open in Cisco Packet Tracer
-Explore configurations and test connectivity
+
+1. Download `.pka` files
+2. Open in Cisco Packet Tracer
+3. Explore configurations and test connectivity
+
+---
 
 ## 📬 Contact
-Email: thatvishal007@gmail.com
-LinkedIn: https://www.linkedin.com/in/vishal0x/
+
+* Email: thatvishal007@gmail.com
+* LinkedIn: https://www.linkedin.com/in/vishal0x/
+
+---
 
 ⭐ If you like this project, feel free to star the repository!
