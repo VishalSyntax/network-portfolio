@@ -52,12 +52,12 @@ Aspiring Network Engineer with a strong interest in networking and infrastructur
 
 ---
 
-🚀 How to Use
+## 🚀 How to Use
 Download .pka files
 Open in Cisco Packet Tracer
 Explore configurations and test connectivity
 
-📬 Contact
+## 📬 Contact
 Email: thatvishal007@gmail.com
 LinkedIn: https://www.linkedin.com/in/vishal0x/
 
