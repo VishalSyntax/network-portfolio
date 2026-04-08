@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vishal | Network Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Vishal, Network Engineer fresher." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="logo" href="#top">Vishal</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Packet Tracer</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Network Engineer Fresher</p>
+          <h1>Vishal Damodar</h1>
+          <p class="subtitle">Pune, India</p>
+          <p class="meta">
+            B.E. Computer Science, Padmashri Dr. V.B. Kolte College, Malkapur
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">Contact</a>
+            <a class="btn btn--ghost" href="#resume">Resume</a>
+          </div>
+        </div>
+        <div class="hero__panel" aria-hidden="true">
+          <div class="hero__glow"></div>
+          <div class="hero__card">
+            <p class="hero__card-title">Availability</p>
+            <p class="hero__card-value">Open to opportunities</p>
+          </div>
+          <div class="hero__card">
+            <p class="hero__card-title">Focus Areas</p>
+            <p class="hero__card-value">Networking, Routing, Switching</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section__header">
+          <h2>About</h2>
+          <p class="section__subtitle">Professional summary</p>
+        </div>
+        <div class="section__body">
+          <!-- Add your professional summary here. -->
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section__header">
+          <h2>Skills</h2>
+          <p class="section__subtitle">Core networking capabilities</p>
+        </div>
+        <div class="section__body">
+          <div class="chip-grid">
+            <!-- Add skill chips here. -->
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section__header">
+          <h2>Cisco Packet Tracer Projects</h2>
+          <p class="section__subtitle">Simulations and labs</p>
+        </div>
+        <div class="section__body">
+          <div class="card-grid">
+            <!-- Add Packet Tracer project cards here. -->
+          </div>
+        </div>
+      </section>
+
+      <section id="certificates" class="section">
+        <div class="section__header">
+          <h2>Certificates</h2>
+          <p class="section__subtitle">Professional training</p>
+        </div>
+        <div class="section__body">
+          <div class="card-grid">
+            <!-- Add certificate cards here. -->
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <div class="section__header">
+          <h2>Resume</h2>
+          <p class="section__subtitle">Download your latest resume</p>
+        </div>
+        <div class="section__body">
+          <div class="resume-box">
+            <p>Resume file will be linked here.</p>
+            <button class="btn btn--primary" type="button" disabled>Download Resume</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section__header">
+          <h2>Contact</h2>
+          <p class="section__subtitle">Let us connect</p>
+        </div>
+        <div class="section__body">
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4"></textarea>
+            </label>
+            <button class="btn btn--primary" type="button" disabled>Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Vishal. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
