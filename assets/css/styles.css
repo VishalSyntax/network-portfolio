@@ -319,6 +319,49 @@ main {
   letter-spacing: 0.01em;
 }
 
+.skill-bars {
+  display: grid;
+  gap: 14px;
+}
+
+.skill-row {
+  display: grid;
+  gap: 8px;
+}
+
+.skill-name {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.skill-bar {
+  position: relative;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(71, 214, 255, 0.12);
+  border: 1px solid rgba(71, 214, 255, 0.2);
+  overflow: hidden;
+}
+
+.skill-bar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: var(--level, 65%);
+  background: linear-gradient(120deg, rgba(71, 214, 255, 0.9), rgba(124, 255, 138, 0.8));
+  border-radius: inherit;
+  animation: fill-bar 1.6s ease forwards;
+}
+
+@keyframes fill-bar {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--level, 65%);
+  }
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
