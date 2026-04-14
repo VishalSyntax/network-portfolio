@@ -376,6 +376,122 @@ main {
   min-height: 140px;
 }
 
+.projects-wrap {
+  display: grid;
+  gap: 32px;
+}
+
+.projects-block {
+  display: grid;
+  gap: 18px;
+}
+
+.projects-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.projects-header h3 {
+  font-size: 1.2rem;
+}
+
+.projects-header p {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.project-card {
+  background: rgba(12, 17, 26, 0.95);
+  border: 1px solid rgba(31, 42, 58, 0.8);
+  border-radius: var(--radius-md);
+  padding: 18px;
+  display: grid;
+  gap: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(71, 214, 255, 0.5);
+  box-shadow: 0 20px 36px rgba(4, 16, 24, 0.45);
+}
+
+.project-media {
+  border-radius: var(--radius-sm);
+  border: 1px dashed rgba(71, 214, 255, 0.4);
+  background: rgba(10, 14, 22, 0.8);
+  display: grid;
+  place-items: center;
+  aspect-ratio: 16 / 9;
+}
+
+.project-media--compact {
+  aspect-ratio: 4 / 3;
+}
+
+.project-media__placeholder {
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.project-content h4 {
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+.project-content p {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.project-meta {
+  display: grid;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.project-meta__label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.badge-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(71, 214, 255, 0.25);
+  background: rgba(71, 214, 255, 0.08);
+  font-size: 0.82rem;
+  color: var(--text);
+}
+
+.project-actions {
+  margin-top: 8px;
+}
+
+.btn--small {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+}
+
 .resume-box,
 .contact-form {
   display: grid;
