@@ -22,6 +22,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font);
   background: radial-gradient(circle at top, #122338 0%, #0b0f14 55%, #0a0d12 100%);
@@ -498,6 +502,88 @@ main {
   gap: 16px;
 }
 
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.cert-card {
+  background: rgba(12, 17, 26, 0.9);
+  border: 1px solid rgba(31, 42, 58, 0.8);
+  border-radius: var(--radius-md);
+  padding: 18px;
+  display: grid;
+  gap: 12px;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(71, 214, 255, 0.5);
+  box-shadow: 0 18px 32px rgba(4, 16, 24, 0.4);
+}
+
+.cert-media {
+  border-radius: var(--radius-sm);
+  border: 1px dashed rgba(71, 214, 255, 0.4);
+  background: rgba(10, 14, 22, 0.8);
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 3;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.cert-card h3 {
+  font-size: 1rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 24px;
+}
+
+.contact-info {
+  display: grid;
+  gap: 16px;
+}
+
+.contact-note {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.contact-list {
+  display: grid;
+  gap: 14px;
+}
+
+.contact-item {
+  display: grid;
+  gap: 4px;
+}
+
+.contact-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+
+.contact-item a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.contact-item a:hover,
+.contact-item a:focus {
+  color: var(--accent);
+}
+
 .contact-form label {
   display: grid;
   gap: 8px;
@@ -539,6 +625,10 @@ main {
   }
 
   .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
     grid-template-columns: 1fr;
   }
 }

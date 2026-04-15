@@ -73,6 +73,21 @@
         </div>
       </section>
 
+      <section id="resume" class="section">
+        <div class="section__header">
+          <h2>Resume</h2>
+          <p class="section__subtitle">Download the latest PDF</p>
+        </div>
+        <div class="section__body">
+          <div class="resume-box">
+            <p>VishalDamodar_resume.pdf</p>
+            <a class="btn btn--primary" href="#" download>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section id="about" class="section">
         <div class="section__header">
           <h2>About</h2>
@@ -540,21 +555,23 @@
           <p class="section__subtitle">Professional training</p>
         </div>
         <div class="section__body">
-          <div class="card-grid">
-            <!-- Add certificate cards here. -->
-          </div>
-        </div>
-      </section>
-
-      <section id="resume" class="section">
-        <div class="section__header">
-          <h2>Resume</h2>
-          <p class="section__subtitle">Download your latest resume</p>
-        </div>
-        <div class="section__body">
-          <div class="resume-box">
-            <p>Resume file will be linked here.</p>
-            <button class="btn btn--primary" type="button" disabled>Download Resume</button>
+          <div class="cert-grid">
+            <article class="cert-card">
+              <div class="cert-media">Certificate Preview</div>
+              <h3>Cisco Networking Basics</h3>
+            </article>
+            <article class="cert-card">
+              <div class="cert-media">Certificate Preview</div>
+              <h3>CCNA Training</h3>
+            </article>
+            <article class="cert-card">
+              <div class="cert-media">Certificate Preview</div>
+              <h3>Linux Fundamentals</h3>
+            </article>
+            <article class="cert-card">
+              <div class="cert-media">Certificate Preview</div>
+              <h3>Cybersecurity Fundamentals</h3>
+            </article>
           </div>
         </div>
       </section>
@@ -565,21 +582,45 @@
           <p class="section__subtitle">Let us connect</p>
         </div>
         <div class="section__body">
-          <form class="contact-form">
-            <label>
-              Name
-              <input type="text" name="name" autocomplete="name" />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" autocomplete="email" />
-            </label>
-            <label>
-              Message
-              <textarea name="message" rows="4"></textarea>
-            </label>
-            <button class="btn btn--primary" type="button" disabled>Send Message</button>
-          </form>
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3>Contact details</h3>
+              <p class="contact-note">Reach out for opportunities, collaborations, or guidance.</p>
+              <div class="contact-list">
+                <div class="contact-item">
+                  <span class="contact-label">Email</span>
+                  <a href="mailto:thatvishal007@gmail.com">thatvishal007@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                  <span class="contact-label">LinkedIn</span>
+                  <a href="#">linkedin.com/in/vishal0x/</a>
+                </div>
+                <div class="contact-item">
+                  <span class="contact-label">GitHub</span>
+                  <a href="#">github.com/VishalSyntax</a>
+                </div>
+                <div class="contact-item">
+                  <span class="contact-label">Location</span>
+                  <span>Pune, India</span>
+                </div>
+              </div>
+            </div>
+            <form class="contact-form">
+              <label>
+                Name
+                <input type="text" name="name" autocomplete="name" placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" autocomplete="email" placeholder="Email address" />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="4" placeholder="How can I help?"></textarea>
+              </label>
+              <button class="btn btn--primary" type="button" disabled>Send Message</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
