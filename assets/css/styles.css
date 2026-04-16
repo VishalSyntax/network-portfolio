@@ -311,6 +311,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  align-items: flex-start;
 }
 
 .skill-tag {
@@ -321,6 +322,8 @@ main {
   color: var(--text);
   font-size: 0.85rem;
   letter-spacing: 0.01em;
+  max-width: 100%;
+  white-space: normal;
 }
 
 .skill-bars {
